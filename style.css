@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+background-color: #115583;
+color: white;
+font-family:Arial, Helvetica, sans-serif,sans-serif;
+font-size: 16px;
+}
+
+div{
+width: 500px;
+height: 350px;
+background-color: rgb(39, 18, 18); 
+color: #ebc1c1 ; 
+margin: 10px;
+padding: 20px 10px 30px 30px;
+border: 1px solid #999999;
+border-radius: 25px 0px 25px 0 px;
+box-shadow: 2px 2px 5px white;
+}
+
+
+ul{
+    list-style: none;
+    margin-top: 0;
+}
+
+ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    height: 50px;
+}
+ul li a{
+    width: 300px;
+    height: 50px;
+    background-color: #333;
+    display: block;
+    border-left: 5px solid rgb(8,96,179);
+    border-right: 5px solid #222;
+    padding-left: 10px;
+    text-decoration: none;
+    color:#bfe1f1
+}
+ul li a:hover{
+  margin-left: 10px ;
+  color: #999999;
+  box-shadow: 10px 10px 20px #000000; 
+  transform: rotate(4deg);  
+  -moz-transform: rotate(4deg);
+  -webkit-transform: rotate(4deg);
+}
+
+td{
+    vertical-align: top;
+}
+
+.encabezado{
+height: 180px;
+width: 100%;
+padding: 0px;
+margin: 0px;
+border-radius: 0px;
+border: 0px;
+background-color: rgb(66, 61, 61);
+
+color: white;
+text-align: center;
+padding-top: 50px;
+}
+
+.piePagina{
+    height: 180px;
+    width: 100%;
+padding: 0px;
+margin: 0px;
+border-radius: 0px;
+border: 0px;
+background-color: #831111;
+}
